@@ -22,8 +22,7 @@ GLOB_WLAN = MOD_NETWORK.WLAN(MOD_NETWORK.STA_IF)
 GLOB_WLAN.active(True)
 GLOB_WLAN.connect('IOT-WU', 'iot123456')
 
-# Firebase example
-firebase.setURL("https://data-esp32-718d0-default-rtdb.firebaseio.com/")
+
 
 def display_frame_data():
     tft.init()
